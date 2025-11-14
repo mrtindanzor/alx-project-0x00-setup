@@ -1,4 +1,4 @@
-import { ButtonVariants } from "@/components/Button";
+import { ButtonVariants } from "@/alx-project-0x00/components/Button";
 import { ComponentProps } from "react";
 
 export interface PillProps {

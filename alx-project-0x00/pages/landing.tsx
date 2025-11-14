@@ -1,5 +1,5 @@
-import { Button } from "@/components/Button";
-import Card from "@/components/Card";
+import { Button } from "@/alx-project-0x00/components/Button";
+import Card from "@/alx-project-0x00/components/Card";
 
 const Landing: React.FC = () => {
   return (

@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces";
+import { ButtonProps } from "@/alx-project-0x00/interfaces";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "./utils/lib";
 
