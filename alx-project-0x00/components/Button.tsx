@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/alx-project-0x00/interfaces";
+import { ButtonProps } from "@/interfaces";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "./utils/lib";
 
@@ -19,7 +19,7 @@ const variants = cva("rounded w-fit px-4 py-2 focus-within:outliine", {
 
 export type ButtonVariants = VariantProps<typeof variants>;
 
-export const Button: React.FC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   size,
   shape,
   className,
@@ -29,3 +29,5 @@ export const Button: React.FC<ButtonProps> = ({
     <button className={cn(variants({ size, shape, className }))} {...props} />
   );
 };
+
+export default Button;

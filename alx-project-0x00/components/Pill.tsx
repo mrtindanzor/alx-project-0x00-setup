@@ -1,4 +1,5 @@
-import { PillProps } from "@/alx-project-0x00/interfaces";
+import { PillProps } from "@/interfaces";
+//@/interfaces
 
 const Pill: React.FC<PillProps> = ({ title }) => {
   return (

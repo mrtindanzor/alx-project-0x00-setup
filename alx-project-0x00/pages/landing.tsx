@@ -1,5 +1,5 @@
-import { Button } from "@/alx-project-0x00/components/Button";
-import Card from "@/alx-project-0x00/components/Card";
+import { Button } from "@/components/Button";
+import Card from "@/components/Card";
 
 const Landing: React.FC = () => {
   return (
@@ -13,3 +13,7 @@ const Landing: React.FC = () => {
   );
 };
 export default Landing;
+
+//rounded-sm
+//rounded-lg
+//rounded-full
