@@ -51,5 +51,5 @@ export interface PostModalProps {
 
 export interface UserModalProps {
   onClose: () => void;
-  onSubmit: (user: Partial<UserProps>) => void;
+  onSubmit: (user: UserProps) => void;
 }

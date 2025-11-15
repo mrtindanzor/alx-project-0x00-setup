@@ -1,9 +1,10 @@
 import { useMyState } from "@/hooks/useUpdateState";
-import { UserModalProps } from "@/interfaces";
+import { UserModalProps, UserProps } from "@/interfaces";
 import React, { useEffect } from "react";
 
 const UserModal: React.FC<UserModalProps> = ({ onClose, onSubmit }) => {
-  const [user, setUser] = useMyState({
+  const [user, setUser] = useMyState<UserProps>({
+    id: 0,
     name: "",
     username: "",
     email: "",

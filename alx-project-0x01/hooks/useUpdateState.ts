@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react"
 
-export function useMyState<T extends object>(args?: T) {
-	const [state, setState] = useState<Partial<T>>(args ?? {})
+export function useMyState<T extends object>(args: T) {
+	const [state, setState] = useState<T>(args)
 
 	const setData = useCallback((path: string, value: unknown) => {
 		setState((state) => updateData(state, path, value))
